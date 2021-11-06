@@ -1,0 +1,125 @@
+/* body {
+  padding: 0;
+}
+
+
+#menu {
+  margin: 0;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  height: 40px;
+  padding: 8px;
+
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+#menu ul {
+  margin: 5px;
+  padding: 8px 0;
+  list-style: none;
+  height: auto;
+}
+#menu li {
+  padding-bottom: 8px;
+  padding: 25px;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#menu a {
+  color: navy;
+  padding: 5px;
+  text-decoration: none;
+}
+div {
+  background-color: red;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto;
+}
+header img {
+  width: 200px;
+}
+header ul {
+  margin: 5px;
+  padding: 8px 0;
+  list-style: none;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: rgba(222, 184, 135, 0.171);
+}
+header ul li {
+  padding-bottom: 8px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li a {
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: black;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+main {
+  width: 80%;
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+section {
+  width: 80%;
+  padding: 10px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+section img {
+  width: 300px;
+
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+div {
+  width: 300px;
+
+  padding: 25px;
+}
+div form label {
+  font-size: large;
+  font-style: oblique;
+  font-weight: bold;
+}
+div form button {
+  background-color: lightsalmon;
+}
